@@ -12,12 +12,12 @@ use parent 'Text::CSV_XS';
 sub new {
     my $class = shift;
 
-    $opts = $_[0] ? { %{$_[0]} } : {};
+    my $opts = $_[0] ? { %{$_[0]} } : {};
     $opts->{sep_char}    = "\t"  unless exists $opts->{sep_char};
     $opts->{quote_char}  = undef unless exists $opts->{quote_char};
     $opts->{escape_char} = undef unless exists $opts->{escape_char};
 
-    $self->SUPER::new($opts);
+    $class->SUPER::new($opts);
 }
 
 1;
