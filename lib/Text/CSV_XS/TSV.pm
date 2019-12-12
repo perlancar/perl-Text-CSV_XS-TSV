@@ -1,9 +1,10 @@
 package Text::CSV_XS::TSV;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
-use 5.010001;
 use strict;
 use warnings;
 
