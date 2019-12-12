@@ -1,3 +1,8 @@
+0.002   2019-12-12  Released-By: PERLANCAR; Urgency: medium
+
+	- Remove perl 5.10 requirement [GH#1].
+
+
 0.001   2019-05-12  Released-By: PERLANCAR
 
         - First release.
