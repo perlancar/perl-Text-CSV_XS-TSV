@@ -26,7 +26,11 @@ sub new {
 
 =head1 SYNOPSIS
 
- use Text::CSV_XS::XS;
+Use like you would use L<Text::CSV_XS> with the object interface:
+
+ use Text::CSV_XS::TSV;
+ my $csv = Text::CSV_XS::TSV->new({binary=>1});
+ # ...
 
 
 =head1 DESCRIPTION
